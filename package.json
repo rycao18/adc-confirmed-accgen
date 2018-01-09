@@ -1,0 +1,28 @@
+{
+  "name": "adc-confirmed-accgen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rycao18/adc-confirmed-accgen.git"
+  },
+  "keywords": [
+    "adidas",
+    "account",
+    "confirmed",
+    "generator"
+  ],
+  "author": "rycao18",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rycao18/adc-confirmed-accgen/issues"
+  },
+  "homepage": "https://github.com/rycao18/adc-confirmed-accgen#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}

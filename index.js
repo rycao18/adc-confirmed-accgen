@@ -123,7 +123,7 @@ request({
 }, function(err, response, body) {
 	if (err) console.log("ERROR: " + err);
 	else {
-		//console.log(body);
+		console.log(body);
 		var res = JSON.parse(body);
 		access_token = res["access_token"];
 		console.log(access_token);
