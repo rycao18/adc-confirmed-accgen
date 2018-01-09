@@ -21,6 +21,8 @@ for (var b = 0; b < 2; b++) {
 
 randomemail += "@rycao.me";
 
+console.log(randomemail);
+
 function doSecond() {
 	var jsonObject = JSON.stringify({
 		"clientId":"1ffec5bb4e72a74b23844f7a9cd52b3d",
@@ -94,7 +96,7 @@ request({
 	}
 });
 
-var username = "US|" + randomemail;
+// It's possible that ADC has blocked C9 as get requests don't work either
 
 var access_token;
 
@@ -123,5 +125,6 @@ request({
 	else {
 		var res = JSON.parse(JSON.stringify(body));
 		access_token = res["access_token"];
+		console.log(access_token);
 	}
 });
